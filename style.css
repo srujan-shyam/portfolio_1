@@ -1,0 +1,312 @@
+html{scroll-behavior: smooth;}
+body{
+    margin: 0px;
+    background-color: rgb(222, 222, 253);
+}
+.navigator{
+    background-color: rgb(124, 124, 255);
+        margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.navigator p{
+    margin: 0px;
+    font-size: 30px;
+    padding: 20px 0px 0px 20px;
+    display: inline;
+    font-weight: bold;
+}
+.navigator a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: large;
+    padding: 0px 60px 13px 30px;
+    margin: 0px 0px 0px 0px;
+}
+#home{
+    margin: 0px 0px 0px 700px;
+}
+.contact{
+    margin-right: 100px;
+}
+.navigator a:hover{
+    color: white;
+}
+
+.left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding:200px 110px 110px 110px;
+}
+
+.name{
+    font-size: 50px;
+    
+}
+
+ .quote{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    word-spacing: 60px;
+    background-color: rgb(172, 172, 253,0.3);
+}
+
+.contact_button{
+    display: inline-block;
+    background-color: rgb(124, 124, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin:4px;
+}
+.contact_button:hover{
+    color: white;
+    padding: 12px 32px;
+    margin: 2px;
+}
+
+.right{
+    display: inline-block;
+    width: 40%;
+    margin: 0px 0px 0px 0px;
+    padding: 90px;
+}
+.my_image{
+    width: 700px;
+    height: auto;
+}
+
+.project{
+    clear: left;
+}
+
+.heading2{
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgb(172, 172, 253,0.3);
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 30px 50px ;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(184, 184, 251);
+    
+}
+.box img{
+    width: 300px;
+    height: 320px;
+    border-radius: 20px 20px 0px 0px;
+}
+.box p{
+    font-size: 25px;
+    margin: 10px 90px 0px 10px;
+    display: inline;
+}
+.box button{
+    border: none;
+    margin: 3px 0px 0px 10px;
+    /* width: 100px; */
+    /* height:70px; */
+    padding: 10px 32px ;
+    border-radius: 20px;
+    background-color: rgb(124, 124, 255);
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+
+.box button:hover{
+    color: white;
+}
+.heading3{
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgb(172, 172, 253,0.3);
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr); 
+    grid-template-rows: repeat(12,1fr) ;
+    gap: 20px;
+    padding: 20px;
+}
+
+.skill-card {
+    background-color: rgb(184, 184, 251);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill-card:hover {
+    background-color: rgb(124, 124, 255);
+    /* Add other hover effects here */
+}
+.skill_image{
+    float: right;
+    border-radius: 10px;
+}
+.skill_description{
+    clear: both;
+    display: inline-block;
+    width: 220px;
+}
+#skill_1{
+    grid-column: 1/8 ;
+    grid-row: 1/6;
+}
+
+#skill_1 img{
+    width: 443px;
+    height: 190px;
+    /* border-radius: 10px; */
+}
+
+
+#skill_2{
+    grid-column: 8/13;
+    grid-row: 1/6;
+}
+
+#skill_2 img{
+    width: 341px; 
+    border-radius: 10px;   
+}
+
+#skill_3{
+grid-row: 6/9;
+grid-column: 1/5;
+}
+
+#skill_3 img{
+    width: 158px;
+
+}
+
+#skill_4{
+grid-row:6/9;
+grid-column: 5/9;
+}
+
+#skill_4 img{
+    width: 159px;
+}
+
+#skill_5{
+    grid-row: 9/13;
+    grid-column: 1/9;
+}
+
+#skill_5 img{
+    width: 200px;
+}
+#skill_5 p{
+    width: 700px;
+}
+
+#skill_6{
+    grid-row: 6/13;
+    grid-column: 9/13;
+}
+
+#skill_6 img{
+    width: 210px;
+}
+
+footer{
+    text-align:center;
+    display:block;
+    margin: 20px 0px 30px 0px;
+}
+footer p{
+    margin:10px
+}
+.icon{
+    margin: 30px;
+}
+.ContactForm{
+    /* display: inline-block; */
+    height: 70vh;
+    width: 60vw;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 30px;
+    margin:30px 279px;
+    background-image: url(/Portfolio/lavender1.jpg) ;
+}
+.ContactForm h1{
+    /* margin: 30px; */
+    padding: 30px;
+    text-align: center;
+    color: rgb(222, 222, 253);
+}
+.ContactForm p{
+    margin: 0px 50px 10px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.inputs{
+    margin: 50px;
+    display: grid;
+    grid-template-areas: "name msg"
+                          "email msg"
+                          "date msg";
+    grid-gap: 20px;
+}
+.inputs input, textarea{
+    background-color: rgb(255, 255, 255,0.3);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+                
+#name{
+    grid-area: name;
+}
+#email{
+    grid-area: email;
+}
+#date{
+    grid-area: date;
+}
+#message{
+    grid-area: msg;
+}
+input[type="button"]{
+    padding: 20px;
+    margin: 2px;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(124, 124, 255);
+}
+input[type="button"]:hover{
+    font-size:17px ;
+    padding: 22px ;
+    margin: 0px;
+    width: 104px;
+    background-color: rgb(100, 100, 238);
+}
+::placeholder{
+    color: black;
+}
